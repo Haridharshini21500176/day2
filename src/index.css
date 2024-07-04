@@ -1,0 +1,38 @@
+/* index.css */
+
+/* Apply a reset and basic styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: Apply a global font style */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Optional: Add global styles for links */
+a {
+  text-decoration: none;
+  color: #d0d4da;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: Apply styles to headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 10px;
+}
+
+/* Optional: Apply styles to buttons */
+button {
+  cursor: pointer;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
